@@ -53,6 +53,6 @@ export class MemberListComponent implements OnInit {
       error => {
         this.alertify.error(error);
       }
-    )
+    );
   }
 }
